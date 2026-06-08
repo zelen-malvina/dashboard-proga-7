@@ -1,3 +1,12 @@
-import pandas as pd
+from ui.dashboard import DashboardApp
 
-main_df = pd.read_csv("data.csv", )
+
+def main():
+
+    app = DashboardApp()
+
+    app.run()
+
+
+if __name__ == "__main__":
+    main()
